@@ -7,7 +7,7 @@ class ProjectCard extends Component {
               <div class="card js-card">
                 <div class="card__image">
                   <div class="responsive-media responsive-media--widescreen">
-                    <img src={this.props.image} />
+                    <img src={this.props.image} alt="project logo" />
                   </div>
                   <div class="card__image-decoration">
                     <div class="label">{this.props.label}</div>
